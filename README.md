@@ -9,8 +9,13 @@ The data consists of information regarding 183,412 rides made in a bike-sharing 
 Upon proper data cleaning, the dataset was reduced and feature-engineered into 11 columns with  the new columns being: 
 
 > day_of_week: to store week day number from start_time.
+
 > start_hour: to store hour number from start_time.
-> time_of_day: to store the time of the day from start_hour
+
+> time_of_day: to store the time of the day from start_hour.
+
 > duration_min: to store the duration in minutes.
-> user_age: to store the user's age from member
-> user_age_bin: grouped/binned ages for age group exploration
+
+> user_age: to store the user's age from member.
+
+> user_age_bin: grouped/binned ages for age group exploration.
