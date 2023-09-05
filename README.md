@@ -19,3 +19,23 @@ Upon proper data cleaning, the dataset was reduced and feature-engineered into 1
 > user_age: to store the user's age from member.
 
 > user_age_bin: grouped/binned ages for age group exploration.
+
+## Summary of Findings
+
+Subscribers and customers bikes usage was different:
+
+> The day of the week that most trips are taken (Thursday) is NOT dependent on if a user is a subscriber or a customer. However, it was discovered that Subscribers mostly used bikes on workdays (Monday - Friday), while customers bikes usage was about the same for the whole week with a huge increment on Saturday and Sunday
+> On average, Subscribers' trips mostly last for (10-11) minutes, while customers mostly last for (23-24) minutes.
+> Customers rides were more likely to last more than one hour compared to subscribers.
+> Customers often start the trip in the afternoon where as Subscribers starts mostly in the morning followed by afternoon.
+> Most rides for subscribers started at 8 or 17. While most customer rides started at 17.
+Average trip duration in minutes:
+> On average, rides on the weekend (Saturday and Sunday) lasted longer than the other days.
+
+## Key Insights for Presentation
+
+For the presentation:\
+* I focus on just  looking at the time of the day and the day of the week that most trips are taken
+* how long does the average trip take? and 
+* check if the results depend on if a user is a subscriber or a customer.\
+* The presentation showed that there indeed is a dependency of the average trip duration on if a user is a subscriber or a customer. On average, customers rides lasted longer than subscribers rides on every day of the week and time of the day
